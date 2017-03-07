@@ -1,6 +1,6 @@
 {
   "name": "pages-barn",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Node JS module that helps to handle static pages data for websites stored with MongoDB",
   "main": "index.js",
   "scripts": {
@@ -32,7 +32,7 @@
     "jest": "19.0.2"
   },
   "dependencies": {
-    "chalk": "^1.1.3",
+    "chalk": "1.1.3",
     "mongoose": "4.8.4"
   }
 }

@@ -4,9 +4,9 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 
-var _MongoConnect = require('./MongoConnect');
+var _mongoConnect = require('./mongoConnect');
 
-var _MongoConnect2 = _interopRequireDefault(_MongoConnect);
+var _mongoConnect2 = _interopRequireDefault(_mongoConnect);
 
 var _error = require('./messages/error');
 
@@ -36,7 +36,7 @@ function PagesBarn(config) {
  *	Establish Connection &
  * 	expose models
  ============================== */
-	var db = (0, _MongoConnect2.default)(mongoUrl);
+	var db = (0, _mongoConnect2.default)(mongoUrl);
 	var _db$models = db.models,
 	    Page = _db$models.Page,
 	    Website = _db$models.Website;
