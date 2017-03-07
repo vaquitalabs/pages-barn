@@ -1,0 +1,38 @@
+{
+  "name": "pages-barn",
+  "version": "0.0.1",
+  "description": "Node JS module that helps to handle static pages data for websites stored with MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel lib -d dist",
+    "build:watch": "babel -w lib -d dist",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vaquitalabs/pages-barn.git"
+  },
+  "keywords": [
+    "static",
+    "website",
+    "pages",
+    "mongo",
+    "mongodb"
+  ],
+  "author": "Marcos Navarro <marcos@aftertype.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vaquitalabs/pages-barn/issues"
+  },
+  "homepage": "https://github.com/vaquitalabs/pages-barn#readme",
+  "devDependencies": {
+    "babel-cli": "6.23.0",
+    "babel-plugin-transform-object-rest-spread": "6.23.0",
+    "babel-preset-es2015": "6.22.0",
+    "jest": "19.0.2"
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "mongoose": "4.8.4"
+  }
+}
